@@ -11,7 +11,7 @@
     align-items: center;
 }
 .box{
-    height: 50vmin;
+    height: 50vh;
     width: 45vmin;
     display: flex;
     flex-direction:column ;
