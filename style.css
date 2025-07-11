@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(138, 100, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 50vmin;
+    width: 45vmin;
+    display: flex;
+    flex-direction:column ;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 8px rgb(0,0,0,0.5);
+}
+
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 48, 48);
+}
+.wrap1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 45px;
+    color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+}
+#amount{
+    width: 90%;
+    height: 42px;
+    border-radius: 5px;
+     border: 1.5px solid rgb(75, 73, 73); 
+     outline: none;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.from-to{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.wrap2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#from{
+    height: 46px;
+    width: 80px;
+     border:none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+
+#to{
+    height: 46px;
+    width: 80px;
+    border:none;
+  outline: none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+.arrow{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.result{
+    margin-top: 40px;
+     font-size: 1.2rem;
+     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 100, 240) ;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    height: 60px;
+}
+.btn:hover{
+    background-color: rgb(100, 58, 214) ;
+}
+.flag{
+    height: 50px;
+    width: 50px;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
