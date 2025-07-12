@@ -11,21 +11,22 @@
     align-items: center;
 }
 .box{
-    height: 60vmin;
-    width: 45vmin;
+    height: 70vmin;
+    width: 50vmin;
     display: flex;
     flex-direction:column ;
     padding: 30px;
     background-color: white;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 0 8px rgb(0,0,0,0.5);
+    box-shadow: 0 0 8px rgb(0,0,0,0.3);
 }
 
 .heading{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(48, 48, 48);
+    font-size: 1.8rem;
 }
 .wrap1{
     display: flex;
@@ -33,13 +34,13 @@
     gap: 10px;
     margin-top: 45px;
     color: rgb(36, 35, 35);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 #amount{
     width: 90%;
     height: 42px;
     border-radius: 5px;
-     border: 1.5px solid rgb(75, 73, 73); 
+     border: 1px solid rgb(75, 73, 73); 
      outline: none;
     display: flex;
     align-items: center;
@@ -56,7 +57,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 #from{
@@ -65,7 +66,7 @@
      border:none;
   outline: none;
   padding-left: 5px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 #to{
@@ -75,7 +76,7 @@
   outline: none;
   outline: none;
   padding-left: 5px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .arrow{
     margin-top: 40px;
