@@ -47,28 +47,29 @@ A simple and responsive currency converter web app that allows users to convert 
 ℹ️ No need for a backend — it works entirely on the frontend with live API call
 
 ## 🔒 API Details
-This project uses the ExchangeRate API for fetching up-to-date currency exchange rates.
+- **This project uses the ExchangeRate API for fetching up-to-date currency exchange rates.**
 
-Free Tier Note:
+-**Free Tier Note:**
 If you are using a free-tier API key, there might be request limits. You can set up your own key by:
 
-Signing up on exchangerate-api.com
+- **Signing up on exchangerate-api.com**
 
-Replacing the API key in your JavaScript file like:
+- **Replacing the API key in your JavaScript file like:**
 
 const apiKey = 'YOUR_API_KEY_HERE';
 
 ## 🧠 Future Improvements
- Swap currency button
+- **Swap currency button**
 
-Currency formatting (e.g. ₹, $, €)
+- **Currency formatting (e.g. ₹, $, €)**
 
-Loading indicator during API calls
+- **Loading indicator during API calls**
 
-Dark mode toggle
+- **Dark mode toggle**
 
 ## 🙌 Contributing
+
 Contributions are welcome!
-If you'd like to improve styling or add new features, feel free to fork and submit a pull request.
+- **If you'd like to improve styling or add new features, feel free to fork and submit a pull request.**
 
 Made with ❤️ by Kumar Yash Raj
