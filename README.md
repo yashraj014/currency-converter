@@ -49,7 +49,7 @@ A simple and responsive currency converter web app that allows users to convert 
 ## 🔒 API Details
 - **This project uses the ExchangeRate API for fetching up-to-date currency exchange rates.**
 
--**Free Tier Note:**
+- **Free Tier Note:**
 If you are using a free-tier API key, there might be request limits. You can set up your own key by:
 
 - **Signing up on exchangerate-api.com**
